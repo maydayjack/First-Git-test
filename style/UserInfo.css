@@ -1,0 +1,42 @@
+#bodybox {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    letter-spacing: 0.1vh;
+}
+
+.head-box {
+    height: 25vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.operation-box {
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+.operation-box svg{
+    display: block;
+    font-size: 4vh;
+    margin-left: 1vh;
+}
+
+.headphoto-box {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headphoto-box svg {
+    font-size: 10vh;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+}
